@@ -28,6 +28,14 @@ struct ContentView: View {
                         .background(Color.black)
                         .cornerRadius(30)
                 }.padding(.top, 50)
+                NavigationLink(destination: MyWebView(urlString: "http://61.109.169.166:9001/")) {
+                    Text("웹")
+                        .fontWeight(.heavy)
+                        .font(.system(size: 30))
+                        .padding()
+                        .background(Color.black)
+                        .cornerRadius(30)
+                }.padding(.top, 50)
             }
         }
     }

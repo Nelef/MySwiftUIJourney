@@ -15,6 +15,7 @@
 		7657C3442ADFB79200844521 /* swiftUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657C3432ADFB79200844521 /* swiftUITestUITests.swift */; };
 		7657C3462ADFB79200844521 /* swiftUITestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657C3452ADFB79200844521 /* swiftUITestUITestsLaunchTests.swift */; };
 		7657C3532ADFCC4E00844521 /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7657C3522ADFCC4E00844521 /* MyTestView.swift */; };
+		7663444D2AE658B900A469E7 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7663444C2AE658B900A469E7 /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		7657C3432ADFB79200844521 /* swiftUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUITestUITests.swift; sourceTree = "<group>"; };
 		7657C3452ADFB79200844521 /* swiftUITestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUITestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7657C3522ADFCC4E00844521 /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
+		7663444C2AE658B900A469E7 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				7657C32C2ADFB79200844521 /* Assets.xcassets */,
 				7657C32E2ADFB79200844521 /* Preview Content */,
 				7657C3522ADFCC4E00844521 /* MyTestView.swift */,
+				7663444C2AE658B900A469E7 /* MyWebView.swift */,
 			);
 			path = swiftUITest;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7657C32B2ADFB79000844521 /* ContentView.swift in Sources */,
+				7663444D2AE658B900A469E7 /* MyWebView.swift in Sources */,
 				7657C3292ADFB79000844521 /* swiftUITestApp.swift in Sources */,
 				7657C3532ADFCC4E00844521 /* MyTestView.swift in Sources */,
 			);
