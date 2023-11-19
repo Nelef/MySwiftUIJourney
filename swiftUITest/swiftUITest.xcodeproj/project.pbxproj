@@ -48,6 +48,7 @@
 		7657C3452ADFB79200844521 /* swiftUITestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUITestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7657C3522ADFCC4E00844521 /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 		7663444C2AE658B900A469E7 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		76ED923F2B020F61000C0F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		7657C3272ADFB79000844521 /* swiftUITest */ = {
 			isa = PBXGroup;
 			children = (
+				76ED923F2B020F61000C0F6A /* Info.plist */,
 				7657C3282ADFB79000844521 /* swiftUITestApp.swift */,
 				7657C32A2ADFB79000844521 /* ContentView.swift */,
 				7657C32C2ADFB79200844521 /* Assets.xcassets */,
@@ -433,6 +435,10 @@
 				DEVELOPMENT_TEAM = 2D7KTTX8A2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftUITest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 사용 권한 요청!";
+				INFOPLIST_KEY_NSContactsUsageDescription = "주소록 사용 권한 요청!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 사용 권한 요청!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,9 +466,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUITest/Preview Content\"";
-				DEVELOPMENT_TEAM = 2D7KTTX8A2;
+				DEVELOPMENT_TEAM = C2GQEYW6B8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = swiftUITest/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 사용 권한 요청!";
+				INFOPLIST_KEY_NSContactsUsageDescription = "주소록 사용 권한 요청!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 사용 권한 요청!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
